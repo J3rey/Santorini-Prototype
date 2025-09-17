@@ -1,7 +1,3 @@
-# FIT3077 Repository
-
-Team Name: Let's Go
-
 # Santorini Game Implementation
 
 ## Overview
