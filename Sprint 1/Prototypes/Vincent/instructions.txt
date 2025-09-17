@@ -1,0 +1,18 @@
+Run on Java version 24
+
+Follow these commands to compile the Java files and convert into an app executable.
+Enter these commands into Terminal App
+
+Compile the Java files:
+javac Main.java Button.java
+
+Create the JAR file:
+jar cvfm Executable.jar manifest.txt *.class
+
+Test the JAR file:
+java -jar Executable.jar
+
+Use JPackage to create the macOS app:
+jpackage --input . --name "Executable" --main-jar Executable.jar --main-class Main
+
+

@@ -1,0 +1,16 @@
+Creating a jar file in IntelliJ
+
+1. Go to file
+2. Go to project structure
+3. Select artifacts -> Jar -> From modules with dependencies
+4. Select the main class (ensure to tick the 'extract to the target Jar' box)
+5. Now in the main menu go to Build - > build artifacts and select the artefact you want to build and press 'build'
+6. It will be saved in the 'out' folder in artifacts
+
+
+Creating exe file using launchj4
+
+1. Launch launchj4
+2. Select the output file you want to put it in (make sure you end it as .exe)
+3. Select the jar file as the one you want to convert to exe
+4. Click on the gear button, choosing a file. (You can choose any file).

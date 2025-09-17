@@ -1,0 +1,12 @@
+Run on JDK version 21.0.2
+
+To convert this application into an executable file
+
+Compile the application
+javac Main.java CustomButton.java
+
+Create the JAR file with the included manifest.txt file
+jar cvfm Executable.jar manifest.txt *.class
+
+Convert JAR file into mac.OS application
+jpackage --input . --main-jar Executable.jar --name MyApplication --type dmg --mac-package-name "My Application"

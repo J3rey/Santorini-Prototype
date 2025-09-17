@@ -1,0 +1,40 @@
+================================================================
+Building a .jar file from a Java project in IntelliJ
+================================================================
+
+1. Go to the main menu and select File > Project Structure
+
+2. Under Project Settings, go to Artifacts and click the + above.
+
+3. Click JAR > From modules with dependencies... .
+
+4. For the Main Class field, click the folder on the right and look for your main class to execute.
+   For JAR files from libraries, select extract to the target JAR.
+   When done, click OK at the bottom.
+   
+5. Optionally, you can change the output directory the JAR file will be placed in.
+   Click OK at the bottom of the Project Structure window.
+
+6. Go to the main menu and select Build > Build Artifacts...
+
+7. Select the artifact we want to build and click Build.
+
+8. The JAR file will be in the output directory (by default out/artifacts/PROJECT_NAME_jar).
+
+
+
+================================================================
+Converting a .jar file into a .exe file via Launch4j
+================================================================
+
+JDK used: Oracle OpenJDK 24
+
+1. Download and install Launch4j.
+
+2. Under the Basic tab, for the Output file field, click the folder and browse for where you want to put your .exe and what filename it should have (it needs a .exe at the end).
+
+3. For the Jar field, click the folder and browse for the .jar file you want to convert.
+
+4. Click on the gear icon on the menu bar, choose a place to save your Launch4j settings (this is largely irrelevant).
+
+5. Your .exe file has now been created.
